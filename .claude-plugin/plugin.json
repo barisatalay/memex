@@ -1,0 +1,23 @@
+{
+  "name": "memex",
+  "version": "1.0.0",
+  "description": "A persistent, compounding knowledge base for AI-assisted development — inspired by Karpathy's LLM Wiki pattern",
+  "author": {
+    "name": "Barış ATALAY",
+    "url": "https://github.com/barisatalay"
+  },
+  "repository": "https://github.com/barisatalay/memex",
+  "license": "MIT",
+  "keywords": [
+    "memex",
+    "wiki",
+    "knowledge-base",
+    "llm-wiki",
+    "debugging",
+    "bug-tracking",
+    "feature-decisions",
+    "pattern-detection",
+    "karpathy"
+  ],
+  "skills": "./skills/"
+}

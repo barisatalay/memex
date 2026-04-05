@@ -1,0 +1,27 @@
+{
+  "description": "memex hooks — inject wiki context at session start and before compaction",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/hooks/wiki-context-injector.mjs",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/hooks/wiki-context-injector.mjs",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
