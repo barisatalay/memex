@@ -1,0 +1,13 @@
+{
+  "name": "memex",
+  "owner": {
+    "name": "barisatalay"
+  },
+  "plugins": [
+    {
+      "name": "memex",
+      "description": "A persistent, compounding knowledge base for AI-assisted development — inspired by Karpathy's LLM Wiki pattern",
+      "source": "./"
+    }
+  ]
+}
