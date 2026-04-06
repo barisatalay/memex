@@ -32,6 +32,22 @@ RAG gibi her sorguda bilgiyi sıfırdan türetmek yerine, LLM yapılandırılmı
 claude plugins install github:barisatalay/memex
 ```
 
+### 1. Marketplace ekle
+```
+/plugin marketplace add barisatalay/memex
+```
+
+### 2. Plugin'i kur
+```
+/plugin install barisatalay/memex
+```
+
+### 3. Güncelleme
+```
+/plugin marketplace update
+```
+
+
 ### İlk Kullanım
 
 Kurulumdan sonra projenizde üç komuttan birini çalıştırın:

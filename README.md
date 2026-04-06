@@ -28,8 +28,20 @@ Humans abandon wikis because the maintenance burden grows faster than the value.
 
 ### Installation
 
-```bash
-claude plugins install github:barisatalay/memex
+
+#### 1. Add Marketplace
+```
+/plugin marketplace add barisatalay/memex
+```
+
+#### 2. Install Plugin
+```
+/plugin install barisatalay/memex
+```
+
+#### 3. Update
+```
+/plugin marketplace update
 ```
 
 ### First Use
