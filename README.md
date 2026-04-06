@@ -19,15 +19,7 @@ Humans abandon wikis because the maintenance burden grows faster than the value.
 - **Missing feature context** — Why was this built this way? What alternatives were rejected?
 - **Invisible patterns** — "We've had 5 Room migration bugs in 6 months" emerges automatically
 
-## Quick Start
-
-### Prerequisites
-
-- [Claude Code](https://claude.ai/code) (CLI, Desktop, or IDE extension)
-- Node.js 18+ (for the hook script)
-
 ### Installation
-
 
 #### 1. Add Marketplace
 ```
@@ -182,7 +174,7 @@ memex/
 |-------|----------|
 | Small (~50 pages) | `index.md` is sufficient. LLM reads it directly. |
 | Medium (~100-300 pages) | `index.md` + tags/modules filtering. Regular lint runs. |
-| Large (300+ pages) | Integrate a local search engine (FTS5, qmd) via MCP server. |
+| Large (300+ pages) | (TODO) Integrate a local search engine (FTS5, qmd) via MCP server. |
 
 ## Optional: Obsidian Integration
 

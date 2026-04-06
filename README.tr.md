@@ -21,11 +21,6 @@ RAG gibi her sorguda bilgiyi sıfırdan türetmek yerine, LLM yapılandırılmı
 
 ## Hızlı Başlangıç
 
-### Önkoşullar
-
-- [Claude Code](https://claude.ai/code) (CLI, Desktop veya IDE extension)
-- Node.js 18+ (hook script için)
-
 ### Kurulum
 
 ```bash
@@ -46,7 +41,6 @@ claude plugins install github:barisatalay/memex
 ```
 /plugin marketplace update
 ```
-
 
 ### İlk Kullanım
 
@@ -156,7 +150,7 @@ Sayfalar `[[wikilink]]`'ler ile birbirine bağlanır — birbirine bağlı bir b
 |-------|----------|
 | Küçük (~50 sayfa) | `index.md` yeterli. LLM doğrudan okur. |
 | Orta (~100-300 sayfa) | `index.md` + tags/modules filtreleme. Düzenli lint çalıştırma. |
-| Büyük (300+ sayfa) | MCP server üzerinden lokal arama motoru (FTS5, qmd) entegre et. |
+| Büyük (300+ sayfa) | (TODO) MCP server üzerinden lokal arama motoru (FTS5, qmd) entegre et. |
 
 ## Opsiyonel: Obsidian Entegrasyonu
 
